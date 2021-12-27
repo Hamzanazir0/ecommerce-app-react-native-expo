@@ -2,7 +2,7 @@ import { AUTHENTICATE, LOGOUT } from '../../constants/ReduxConstants';
 
 const initialState = {
   token: null,
-  userId: null
+  suerId: null
 };
 
 export default (state = initialState, action) => {
